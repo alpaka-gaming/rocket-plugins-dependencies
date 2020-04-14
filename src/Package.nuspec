@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
+  <metadata minClientVersion="2.12">
+    <id>Rocket.Plugins.Dependencies</id>
+    <version>4.9.3</version>
+    <title>Rocket.Plugins.Dependencies</title>
+    <authors>Enner Pérez</authors>
+    <owners>Enner Pérez</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <icon>.editoricon.png</icon>
+    <developmentDependency>true</developmentDependency>
+    <description>Provides Rocket Plugins Dependencies References</description>
+    <tags>Unturned Rocket Plugins</tags>
+    <repository type="git" url="https://github.com/lisiados-dev-team/Rocket.Plugins.Dependencies" />
+    <dependencies>
+      <group targetFramework=".NETFramework2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src=".editoricon.png" target=".editoricon.png" />
+    <file src="..\CHANGELOG.md" target="CHANGELOG.md" />
+    <file src="..\README.md" target="README.md" />
+
+    <file src="lib\Assembly-CSharp-firstpass.dll" target="lib\net20\Assembly-CSharp-firstpass.dll" />
+    <file src="lib\Assembly-CSharp.dll" target="lib\net20\Assembly-CSharp.dll" />
+    <!--Rocket-->
+    <file src="lib\Rocket.API.dll" target="lib\net20\Rocket.API.dll" />
+    <file src="lib\Rocket.Core.dll" target="lib\net20\Rocket.Core.dll" />
+    <file src="lib\Rocket.Unturned.dll" target="lib\net20\Rocket.Unturned.dll" />
+    <!--UnityEngine-->
+    <file src="lib\UnityEngine.dll" target="lib\net20\UnityEngine.dll" />
+  </files>
+</package>
