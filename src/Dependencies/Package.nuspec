@@ -15,7 +15,7 @@
     <repository type="git" url="https://github.com/lisiados-dev-team/Rocket.Plugins.Dependencies" />
     <dependencies>
       <group targetFramework=".NETFramework4.0">
-        <dependency id="Unity3D.UnityEngin" version="2018.3.5.1" />
+        <dependency id="Unity3D.UnityEngine" version="2018.3.5.1" />
       </group>
     </dependencies>
   </metadata>
