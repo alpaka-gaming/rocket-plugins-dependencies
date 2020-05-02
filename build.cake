@@ -12,7 +12,7 @@ var configuration = Argument("configuration", "Release");
 
 // Define directories.
 var buildDir = Directory("./build");
-var version = EnvironmentVariable("APPVEYOR_BUILD_VERSION") ?? Argument("version", "4.9.3");
+var version = EnvironmentVariable("APPVEYOR_BUILD_VERSION") ?? Argument("version", "4.9.4");
 
 //////////////////////////////////////////////////////////////////////
 // TASKS
@@ -27,7 +27,7 @@ Task("Clean")
 Task("Build-NuGet-Packages")
     .Does(() =>
     {
-        var file = new System.IO.FileInfo("src\\Package.nuspec");
+        var file = new System.IO.FileInfo("src\\Dependencies\\Package.nuspec");
         var path = file.Directory;
         var nuGetPackSettings = new NuGetPackSettings()
         {
