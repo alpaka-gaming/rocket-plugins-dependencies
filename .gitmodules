@@ -1,3 +1,0 @@
-[submodule "src/Template"]
-	path = src/Template
-	url = git@gitlab.com:lisiados/unturned/rocket-plugins-template.git
