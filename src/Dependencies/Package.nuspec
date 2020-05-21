@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
   <metadata minClientVersion="2.12">
     <id>Rocket.Plugins.Dependencies</id>
-    <version>4.9.4</version>
+    <version>4.9.5</version>
     <title>Rocket.Plugins.Dependencies</title>
     <authors>Enner Pérez</authors>
     <owners>Enner Pérez</owners>
